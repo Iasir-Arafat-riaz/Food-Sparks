@@ -34,6 +34,9 @@ h1 {
 h2 {
   font-size: 35px;
 }
+h3 {
+  font-size: 20px;
+}
 .about-section {
   display: flex;
   background-image: url(images/bg.png);
@@ -81,4 +84,31 @@ h2 {
   background-color: black;
   color: aliceblue;
   padding: 10px;
+}
+marquee {
+  color: rgb(92, 85, 81);
+}
+.address-section {
+  text-align: center;
+  background-image: url(images/cover.png);
+  background-repeat: no-repeat;
+  color: whitesmoke;
+}
+
+.special-recipes-section {
+  box-shadow: 10px 15px 25px gray;
+  border: 3px solid grey;
+  margin: 20px 90px;
+  border-radius: 10px;
+  background-image: url(images/bg2.jpg);
+}
+.very-special {
+  text-align: center;
+  margin-top: 60px;
+  color: rgb(5, 126, 126);
+}
+.special-parent-div {
+  display: flex;
+  margin: 20px 90px;
+  padding: 30px;
 }
