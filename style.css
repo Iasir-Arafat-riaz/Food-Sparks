@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+.half-width {
+  width: 50%;
+}
+.half-width img {
+  width: 80%;
+}
+.food {
+  color: rgb(255, 153, 0);
+}
+.sparks {
+  color: rgb(30, 169, 179);
+}
