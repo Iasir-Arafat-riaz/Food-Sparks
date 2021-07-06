@@ -1,15 +1,84 @@
 body {
   margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(219, 223, 223);
 }
 .half-width {
   width: 50%;
+  margin: 50px;
 }
 .half-width img {
   width: 80%;
+  margin-left: 150px;
 }
 .food {
   color: rgb(255, 153, 0);
 }
 .sparks {
   color: rgb(30, 169, 179);
+}
+a {
+  text-decoration: none;
+  background-image: linear-gradient(orange, rgb(231, 83, 46));
+  padding: 10px 25px;
+  border-radius: 20px;
+}
+.intro-section {
+  display: flex;
+  margin-bottom: 40px;
+}
+h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+h2 {
+  font-size: 35px;
+}
+.about-section {
+  display: flex;
+  background-image: url(images/bg.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-bottom: 40px;
+}
+#about-img {
+  margin-left: 50px;
+}
+.recipes-div {
+  text-align: center;
+  margin: 10px 350px;
+}
+
+.quatar-width {
+  width: 33%;
+  box-shadow: 15px 20px 35px rgb(59, 59, 61);
+  margin: 50px;
+  padding: 40px;
+  border-radius: 15px;
+  background-color: rgb(252, 185, 130);
+}
+.quatar-width img {
+  width: 100%;
+  border-radius: 10px;
+}
+.recipes-parent-div {
+  display: flex;
+  margin: 10px 40px;
+}
+.follower {
+  display: flex;
+  margin: 100px 90px;
+  box-shadow: 15px 20px 35px rgb(59, 59, 61);
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+.follower-quatar-width {
+  margin: 30px 100px;
+  width: 30%;
+}
+.footer {
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+  padding: 10px;
 }
