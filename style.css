@@ -93,6 +93,14 @@ marquee {
   background-image: url(images/cover.png);
   background-repeat: no-repeat;
   color: whitesmoke;
+  margin-bottom: 0;
+  padding: 15px;
+  
+  border-image: linear-gradient(170deg,rgb(212, 58, 19),orange) ;
+  border-bottom: 15px solid;
+  border-left: 8px solid;
+  border-right: 8px solid;
+  border-image-slice: 1;
 }
 
 .special-recipes-section {
